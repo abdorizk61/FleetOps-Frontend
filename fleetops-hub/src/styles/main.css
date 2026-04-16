@@ -163,6 +163,7 @@ h6 {
     min-height: 100vh;
     min-height: 0;
     overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .sidebar-brand {
@@ -328,7 +329,7 @@ h6 {
 .sidebar-signout {
     width: 100%;
     border: none;
-    background: transparent ;
+    background: transparent;
     border-radius: var(--radius-md);
     color: var(--color-danger);
     font: inherit;
