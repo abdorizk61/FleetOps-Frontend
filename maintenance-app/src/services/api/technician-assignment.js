@@ -1,4 +1,4 @@
-import api from "/shared/api-handler.js";
+import api from "../../../../Server/scripts/api-handler.js";
 import WorkOrdersApi from "./work-orders.js";
 
 api.setBaseURL("http://localhost:3000");
