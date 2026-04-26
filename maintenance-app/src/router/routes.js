@@ -20,6 +20,16 @@ export const routes = [
         },
     },
     {
+        path: "/my-work-orders",
+        title: "My Work Orders",
+        navTitle: "My Work Orders",
+        view: {
+            html: "/src/views/my-work-orders/view.html",
+            css: "/src/views/my-work-orders/view.css",
+            js: "/src/views/my-work-orders/view.js",
+        },
+    },
+    {
         path: "/work-orders/details",
         title: "Work Order Details",
         navTitle: "Work Orders",
@@ -117,6 +127,16 @@ export const routes = [
             html: "/src/views/cost-to-value/view.html",
             css: "/src/views/cost-to-value/view.css",
             js: "/src/views/cost-to-value/view.js",
+        },
+    },
+    {
+        path: "/cost-to-value/details",
+        title: "Vehicle CTV Details",
+        navTitle: "Cost-to-Value",
+        view: {
+            html: "/src/views/cost-to-value/details/view.html",
+            css: "/src/views/cost-to-value/details/view.css",
+            js: "/src/views/cost-to-value/details/view.js",
         },
     },
     {
